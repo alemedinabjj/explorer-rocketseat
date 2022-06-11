@@ -33,4 +33,4 @@
 <p>Projeto criado na semana do evento da rocketseat "Maratona Explorer". Utilizado CSS, SASS, Bulma, JS.</p>
 
 
-![Snake animation](https://github.com/USERNAME/USERNAME/blob/output/github-contribution-grid-snake.svg)
+<p>Criado com 💜 por Alexandre</p>
