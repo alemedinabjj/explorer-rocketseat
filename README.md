@@ -5,8 +5,8 @@
 <p align="center">conversando e trocando ideias. Comunidade realmente incrível, nota 10!</p>
 
 <p align="center">
-    <a href="#licence">Licença</a>
-    <a href="#techs">Tecnologia utilizada</a>
+    <a href="#licença">Licença</a>
+    <a href="#tecnologias utilizadas">Tecnologia utilizada</a>
     <a href="#sobre">Sobre</a>
 </p>
 
@@ -31,5 +31,3 @@
 # Sobre
 
 <p>Projeto criado na semana do evento da rocketseat "Maratona Explorer". Utilizado CSS, SASS, Bulma, JS.</p>
-
-![Snake animation](https://github.com/USERNAME/USERNAME/blob/output/github-contribution-grid-snake.svg)
