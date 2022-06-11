@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="columns is-full">
+      <div
+        class="column is-three-fifths is-offset-one-fifth pergunta"
+      >
+        <div class="card is-dark">
+          <div class="container">
+            <div class="ballredor">
+              <div class="ball"></div>
+            </div>
+            <h2 class="title">Vou revelar o seu destino!</h2>
+            <p>
+              Clique em fazer pergunta para que seu destino seja
+              revelado.
+            </p>
+          </div>
+
+          <div class="column is-half is-offset-one-quarter asn">
+            <div class="container">
+              <input
+                class="input is-normal"
+                type="text"
+                placeholder="Digite sua pergunta!"
+              />
+              <button class="button is-primary">
+                Fazer pergunta
+              </button>
+            </div>
+          </div>
+          <div class="result"></div>
+          <article class="message is-danger is-small">
+            <div class="message-header">
+              <p>ERROR!</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+              <strong>Exponha sua questão!</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

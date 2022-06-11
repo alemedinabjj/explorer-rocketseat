@@ -1,0 +1,111 @@
+body {
+  background: #000111;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  animation: spinBall 1.13s linear infinite;
+  box-shadow: inset 0 0 18px #fff, inset 6px 0 18px violet,
+    inset -6px 0 18px #0ff, inset 6px 0 30px violet,
+    inset -6px 0 30px #0ff, 0 0 18px #fff, -4px 0 18px violet,
+    4px 0 18px #0ff;
+  transition: 1s ease;
+
+  &::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: spinBall 1.13s linear infinite;
+    box-shadow: inset 0 0 18px #fff, inset 6px 0 18px violet,
+      inset -6px 0 18px #0ff, inset 6px 0 30px violet,
+      inset -6px 0 30px #0ff, 0 0 18px #fff, -4px 0 18px violet,
+      4px 0 18px #0ff;
+  }
+}
+@keyframes spinBall {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.cursor {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  animation: spinBall 1.13s linear infinite;
+  box-shadow: inset 0 0 9px #fff, inset 3px 0 9px violet,
+    inset -3px 0 9px #0ff, inset 3px 0 15px violet,
+    inset -3px 0 15px #0ff, 0 0 9px #fff, -2px 0 9px violet,
+    2px 0 9px #0ff;
+  position: absolute;
+  z-index: 1;
+  transition: 0.1s ease-out;
+  &::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    animation: spinBall 1.13s linear infinite;
+    box-shadow: inset 0 0 3px #fff, inset 1.5px 0 3px violet,
+      inset -1.5px 0 3px #0ff, inset 1.5px 0 7px violet,
+      inset -1.5px 0 7px #0ff, 0 0 5px #fff, -1px 0 3px violet,
+      1px 0 5px #0ff;
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+}
+@keyframes spinBall {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ball {
+  transition: 1s ease;
+}
+.ballredor {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+  transform: scale(1);
+}
+
+.ball-expended {
+  transform: scale(1.5);
+}
+.pulse {
+  box-shadow: inset 0 0 9px #fff, inset 3px 0 9px rgb(255, 0, 0),
+    inset -3px 0 9px rgb(0, 255, 0), inset 3px 0 15px rgb(252, 0, 0),
+    inset -3px 0 15px rgb(137, 241, 0), 0 0 9px rgb(0, 255, 55),
+    -2px 0 9px rgb(255, 0, 0), 2px 0 9px rgb(72, 255, 0);
+}
+
+.nono {
+  animation: nonoAnime 0.3s;
+  animation-iteration-count: max($numbers: 2);
+}
+@keyframes nonoAnime {
+  0% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(30px);
+  }
+  70% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.result {
+  transition: 0.3s ease;
+}
