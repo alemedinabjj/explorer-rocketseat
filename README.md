@@ -6,7 +6,7 @@
 
 <p align="center">
     <a href="#licença">Licença</a>
-    <a href="#tecnologias utilizadas">Tecnologia utilizada</a>
+    <a href="#tecnologias">Tecnologia utilizada</a>
     <a href="#sobre">Sobre</a>
 </p>
 
@@ -18,7 +18,7 @@
 
 <p>Licença MIT</p>
 
-# Tecnologias utilizadas
+# Tecnologias
 
 <p>HTML, SAS, Framework CSS (Bulma), Javascript </p>
 <p>
